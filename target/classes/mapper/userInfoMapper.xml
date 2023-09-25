@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.my.board.dao.UserInfoDAO">
+    
+    <!-- 사용자 정보를 아이디로 조회하는 쿼리 -->
+    <select id="select" parameterType="string" resultType="com.my.board.domain.UserInfoDTO">
+        SELECT * FROM user_info WHERE id = #{id}
+    </select>
+    
+    <!-- 다른 필요한 SQL 쿼리들을 추가할 수 있습니다. -->
+    
+</mapper>

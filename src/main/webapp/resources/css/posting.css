@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.all-contain{
+	margin: 5% 10% 10% 10%;
+}
+
+h3{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+th{
+	width: 15%;
+}
+
+#text-div{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+p{
+	padding-left: 30px;
+	
+}
+
+.title-area{
+	margin-left: 30px;
+	width: 80%;
+}
+
+.content-area{
+	margin-left: 30px;
+	width: 80%;
+}
+
+.btn-div{
+	float: right;
+	margin: 0% 3% 0% 0%;
+}
+

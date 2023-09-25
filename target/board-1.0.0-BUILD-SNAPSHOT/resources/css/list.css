@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+	body {
+		position: relative; 
+		width: 100%;
+		height: 100%;
+	}
+	
+	#alls{
+		padding: 5% 0% 10% 0%; 
+	}
+	
+	.page_title { 
+		text-align: center;
+	}
+	
+	/* for right -> search, btn */
+	#R-side {
+		display: flex;
+		float: right;
+	}
+	
+	#W-all{
+		width: 100%;
+	}
+	
+	#t1{
+		width: 5%;
+	}
+	
+	#t2{
+		width: 20%;	
+		text-align: left;
+	}
+	
+	#t3{
+		width: 30%;
+		text-align: center;
+	}
+	
+	#t4{
+	width: 10%;
+	text-align: center;
+	}
+	
+	td{
+		text-align: center;
+	}
+	
+	
+	/* fonts smaller -> search, btn */
+	#smaller{
+		font-size: 12px;
+	}
+	
+	/* select styles */
+	.select-box{
+		margin-right: 2%;
+	}
+	
+	select {
+		background:url('../images/caret-down-fill.svg') no-repeat right 24px center;
+	}
+	
+	select::-ms-expand {
+		display: none; /* for IE 10,11 */
+	}
+	
+	#select-styles{
+		font-size: 13px;
+		height: 28px;
+		border: 1px solid #C4C4C4;
+		border-radius: 3px;
+		
+		/* 	remove default style  */
+		-webkit-appearance: none;  /* for chrome */
+		-moz-appearance: none; /* for firefox */
+		appearance: none; /* remove defalt arraow */
+		-o-appearance: none;
+		outline: none;
+	}
+	
+	/* button styles */
+	#all-btns{
+		font-size: 12px;
+		padding: 3px;
+		width: 50px;
+		height: 28px;
+	}
+	
+	
+	

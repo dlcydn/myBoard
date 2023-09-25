@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+	.left-side {
+		float: right;
+		margin-right: 20%;	
+	}
+	
+	#width-sm{
+/* 		padding-right: 30%; */
+/* 		padding-left: 30%; */
+	}
+	
+	a {
+		text-decoration-line: none;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration-line: none;
+		text-decoration: none;
+	}
+	
+	#all-form{
+		padding: 10%;
+	}
